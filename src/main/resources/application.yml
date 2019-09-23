@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: integration-service
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+rabbit:
+  queue:
+    name: mail_queue
+
+server:
+  port: 8321
+
+
